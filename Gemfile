@@ -5,5 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'sinatra', '~> 2.0'
-gem 'rake', '~> 12.3'
+ruby '1.9.3'
+
+gem 'sinatra', '~> 1.4', '>= 1.4.8'
+gem 'rake', '~> 11.3'
